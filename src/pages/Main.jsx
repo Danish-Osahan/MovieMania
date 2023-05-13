@@ -36,7 +36,9 @@ const Main = () => {
             </h3>
           </div>
 
-          <button className=" rounded-full translate-all bg-[#9C34C2]  border-none  font-satoshi font-semibold text-xl  hover:bg-[#FFA500] text-white hover:text-black">
+          <button onClick={()=>{
+            window.open('https://github.com/Danish-Osahan/MovieMania')
+          }} className=" rounded-full translate-all bg-[#9C34C2]  border-none  font-satoshi font-semibold text-xl  hover:bg-[#FFA500] text-white hover:text-black">
             <img src={git} alt="Github" className="w-12 object-contain" />
           </button>
         </nav>
