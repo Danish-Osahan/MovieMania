@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { category, name, rating, date, summary, notfound } from "../assets";
+import { category, name, rating, date, summary, notfound,loader } from "../assets";
 import axios from "axios";
 import Popup from "reactjs-popup";
 import { ToastContainer, toast } from "react-toastify";
@@ -48,7 +48,7 @@ const CardDetails = () => {
         <div className="">
           <img
             src={
-              maindata?.image?.original ? maindata?.image?.original : notfound
+              maindata?.image?.original ? maindata?.image?.original : loader
             }
             alt="Not Found"
             className="object-contain w-full  rounded-md drop-shadow-xl"

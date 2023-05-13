@@ -8,5 +8,6 @@ import notfound from "./notfound.jpg";
 import runtime from "./runtime.svg";
 import date from "./date.svg";
 import summary from "./summary.svg";
+import loader from "./loader.svg";
 
-export { logo,git,name,rating,status,category,notfound,runtime,date,summary};
+export { logo,git,name,rating,status,category,notfound,runtime,date,summary,loader};
